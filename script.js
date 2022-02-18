@@ -138,3 +138,24 @@ showStory(`${captainJack.name} realizes the bar is made of beans and tries to av
 showStory(`At that moment ${steve.name} feels a ripper about to emerge!`);
 showStory(steve.releaseTheKraken("Steve",100));
 showStory(`${steve.name} has opened the immortal portal and gained its immortality powers...but the library is ruined`);
+
+/**
+ * * = is to set a value
+ * * == compares two values
+ * * === compares values and datatype
+ * * != looks for when things are not equal
+ */
+
+console.log(1==1);
+console.log(1=="1");
+console.log(1==="1");
+
+let toughManBeast = "Professor Stu"
+function localInfo(){
+    const bestSubject = "Programming";
+    console.log(toughManBeast);
+    return bestSubject;
+}
+bestSubject = localInfo();
+console.log(bestSubject);
+
